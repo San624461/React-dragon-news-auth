@@ -19,7 +19,7 @@ const routes = createBrowserRouter(
 
                 },
                 {
-                    path: 'F/news/:id',
+                    path: '/news/:id',
                     element: <PrivateRoute>
                         <News></News>
                     </PrivateRoute>
